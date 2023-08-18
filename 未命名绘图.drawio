@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-18T11:52:21.985Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" etag="_22FjhTxUe0-tbwPNBz3" version="21.6.8" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-08-18T11:54:54.601Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" etag="NrK6E8yCj0lalSbtg6hq" version="21.6.8" type="github" pages="3">
   <diagram name="第 1 页" id="bTmhR4Yzm4HeWg_Pz3V0">
     <mxGraphModel dx="909" dy="1761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -340,7 +340,7 @@
         </mxCell>
         <mxCell id="pSg9Xf1wRBLIPinMvZ85-42" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="120" y="300" as="sourcePoint" />
+            <mxPoint x="118" y="330" as="sourcePoint" />
             <mxPoint x="120" y="100" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -377,9 +377,6 @@
         <mxCell id="pSg9Xf1wRBLIPinMvZ85-53" value="&lt;b&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;...&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="283" y="250" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="pSg9Xf1wRBLIPinMvZ85-55" value="0ms" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="90" y="290" width="60" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="pSg9Xf1wRBLIPinMvZ85-57" value="Position Check" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="530" y="143" width="100" height="47" as="geometry" />
         </mxCell>
@@ -390,10 +387,29 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pSg9Xf1wRBLIPinMvZ85-59" value="100ms" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="490" y="289" width="60" height="30" as="geometry" />
+          <mxGeometry x="485" y="286" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="pSg9Xf1wRBLIPinMvZ85-61" value="各轴最大误差 = 100ms * Vmax&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;各轴数据延迟 = 5ms * V&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;数据延迟影响 &amp;lt; 5%&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="80" y="320" width="167" height="70" as="geometry" />
+          <mxGeometry x="80" y="340" width="167" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pSg9Xf1wRBLIPinMvZ85-62" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="320" as="sourcePoint" />
+            <mxPoint x="520" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pSg9Xf1wRBLIPinMvZ85-65" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="pSg9Xf1wRBLIPinMvZ85-62">
+          <mxGeometry x="0.3864" y="-3" relative="1" as="geometry">
+            <mxPoint x="-77" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pSg9Xf1wRBLIPinMvZ85-67" value="time_cycle(check)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="pSg9Xf1wRBLIPinMvZ85-62">
+          <mxGeometry x="0.0156" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pSg9Xf1wRBLIPinMvZ85-55" value="0ms" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="88" y="284" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
