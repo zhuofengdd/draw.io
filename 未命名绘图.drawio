@@ -1,9 +1,81 @@
-<mxfile host="app.diagrams.net" modified="2023-08-18T01:38:13.585Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" version="21.6.8" etag="Zg2IqxlXfrZCPNRWjFSy" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-18T02:01:25.948Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" etag="jbFzypzgQFKjCezvw0Cs" version="21.6.8" type="github">
   <diagram name="第 1 页" id="bTmhR4Yzm4HeWg_Pz3V0">
-    <mxGraphModel>
+    <mxGraphModel dx="909" dy="1761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="-ehKRAcnNxcPrC-oD9jl-10" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="190" width="570" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="-ehKRAcnNxcPrC-oD9jl-1" value="SafeRTOS" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontSize=14;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="390" width="540" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-ehKRAcnNxcPrC-oD9jl-2" value="CAN Adapter" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontSize=14;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-ehKRAcnNxcPrC-oD9jl-3" value="CANOpen Lib" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontSize=14;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-ehKRAcnNxcPrC-oD9jl-4" value="RTOS&amp;nbsp; &amp;nbsp;Adapter&lt;span style=&quot;white-space: pre; font-size: 14px;&quot;&gt;&#x9;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontSize=14;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-ehKRAcnNxcPrC-oD9jl-5" value="Alarm" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontSize=14;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" vertex="1" parent="1">
+          <mxGeometry x="650" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-ehKRAcnNxcPrC-oD9jl-6" value="Syslog Lib" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontSize=14;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-ehKRAcnNxcPrC-oD9jl-7" value="Utility Lib" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontSize=14;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-ehKRAcnNxcPrC-oD9jl-8" value="State Machine" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontSize=14;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-ehKRAcnNxcPrC-oD9jl-9" value="Continuous Trigger" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontSize=14;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" vertex="1" parent="1">
+          <mxGeometry x="650" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-ehKRAcnNxcPrC-oD9jl-11" value="数据访问层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=1;fontSize=16;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="440" y="200" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-ehKRAcnNxcPrC-oD9jl-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;align=center;fontSize=14;" edge="1" parent="1" source="-ehKRAcnNxcPrC-oD9jl-11" target="-ehKRAcnNxcPrC-oD9jl-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-ehKRAcnNxcPrC-oD9jl-13" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="-90" width="570" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="-ehKRAcnNxcPrC-oD9jl-14" value="业务逻辑层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="440" y="-80" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-ehKRAcnNxcPrC-oD9jl-16" value="Watchdog Handing" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="230" y="-50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-ehKRAcnNxcPrC-oD9jl-17" value="Alarm Adapter" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="370" y="-50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-ehKRAcnNxcPrC-oD9jl-18" value="Position Check" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="370" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-ehKRAcnNxcPrC-oD9jl-19" value="Limit Check" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="510" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-ehKRAcnNxcPrC-oD9jl-20" value="Strip Light Control" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="510" y="-50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-ehKRAcnNxcPrC-oD9jl-21" value="Data Flow" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="650" y="-50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-ehKRAcnNxcPrC-oD9jl-22" value="Target Check" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="650" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-ehKRAcnNxcPrC-oD9jl-23" value="Timeout Monitor" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="230" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-ehKRAcnNxcPrC-oD9jl-24" value="IO Manage" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="230" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-ehKRAcnNxcPrC-oD9jl-25" value="Button Manage&lt;span style=&quot;white-space: pre; font-size: 14px;&quot;&gt;&#x9;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="370" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
