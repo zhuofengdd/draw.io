@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-11T03:30:58.318Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="If2E2rEzwn3e70_7I1Ut" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-11T03:32:02.740Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="VeieAxe89nNGVseaggOL" version="22.1.21" type="github">
   <diagram name="第 1 页" id="r7JxcP4SL_vGcXnUMuKB">
     <mxGraphModel dx="1065" dy="585" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -221,20 +221,23 @@
         <mxCell id="kQQk8XXsAN1Bgewj3zPt-190" value="&lt;b&gt;从站&lt;/b&gt;收到七个字，校验不通过，向后搜索到中间的假包头，此时认定有效数据为6个" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="201" y="585" width="201" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="kQQk8XXsAN1Bgewj3zPt-191" value="&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;主站未重启，从站重启&lt;/font&gt;&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="445.5" y="660.5" as="geometry" />
-        </mxCell>
         <mxCell id="kQQk8XXsAN1Bgewj3zPt-192" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;rotation=90;" vertex="1" parent="1">
           <mxGeometry x="533.5" y="560" width="20" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="kQQk8XXsAN1Bgewj3zPt-193" value="&lt;b&gt;从站&lt;/b&gt;收到七个字，校验不通过，向后搜索到中间的假包头，此时认定有效字为6个" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="466.12" y="585" width="201" height="45" as="geometry" />
+        <mxCell id="kQQk8XXsAN1Bgewj3zPt-193" value="&lt;b&gt;从站再&lt;/b&gt;收到六个字，校验通过" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="466.12" y="600" width="201" height="45" as="geometry" />
         </mxCell>
         <mxCell id="kQQk8XXsAN1Bgewj3zPt-194" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;rotation=90;" vertex="1" parent="1">
           <mxGeometry x="425.63" y="620" width="20" height="40" as="geometry" />
         </mxCell>
         <mxCell id="kQQk8XXsAN1Bgewj3zPt-195" value="从站再收1个字，校验失败，继续，向后搜索包头，认定有效数据为1个字" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="409" y="510" width="60" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="kQQk8XXsAN1Bgewj3zPt-196" value="&lt;font color=&quot;#ff0000&quot;&gt;8000&lt;/font&gt; aaaa bbbb 8000 8000 8000 eeee" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="680" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kQQk8XXsAN1Bgewj3zPt-197" value="&lt;font color=&quot;#ff0000&quot;&gt;8000&lt;/font&gt; aaaa bbbb 8000 8000 8000 eeee" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="750" width="240" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
